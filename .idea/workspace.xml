@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb8b6915-019b-4a69-ad07-cfe2d5466cea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/anhnt/flow/RunnableDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/anhnt/flow/RunnableDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_example.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="cb8b6915-019b-4a69-ad07-cfe2d5466cea" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +55,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/anhnt/flow/RunnableDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
               <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anhnt/info/WorkingThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/anhnt/info/ThreadInfoExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -98,6 +117,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/anhnt/flow/RunnableDemo.java" />
         <option value="$PROJECT_DIR$/src/com/anhnt/flow/RunnableDemoTest.java" />
+        <option value="$PROJECT_DIR$/src/com/anhnt/info/WorkingThread.java" />
+        <option value="$PROJECT_DIR$/src/com/anhnt/info/ThreadInfoExample.java" />
       </list>
     </option>
   </component>
@@ -127,6 +148,12 @@
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="anhnt" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemoTest">
+  <component name="RunManager" selected="Application.ThreadInfoExample">
     <configuration name="RunnableSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RunnableSimple" />
       <module name="thread_example" />
@@ -168,6 +195,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.anhnt.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadInfoExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anhnt.info.ThreadInfoExample" />
+      <module name="thread_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anhnt.info.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,6 +271,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadInfoExample" />
         <item itemvalue="Application.ThreadDemoTest" />
         <item itemvalue="Application.RunnableSimple" />
         <item itemvalue="Application.TwoThreadAlive" />
@@ -247,7 +288,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568685311055</updated>
-      <workItem from="1568685313757" duration="4528000" />
+      <workItem from="1568685313757" duration="5035000" />
     </task>
     <task id="LOCAL-00001" summary="initializing thread demo">
       <created>1568689384328</created>
@@ -263,11 +304,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568690025677</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="check threads's info">
+      <created>1568691028832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568691028832</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4528000" />
+    <option name="totallyTimeSpent" value="5035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="50" width="1440" height="794" extended-state="0" />
@@ -283,7 +331,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32892805" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32892805" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -311,7 +359,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initializing thread demo" />
     <MESSAGE value="create a thread by implement Runnable" />
-    <option name="LAST_COMMIT_MESSAGE" value="create a thread by implement Runnable" />
+    <MESSAGE value="check threads's info" />
+    <option name="LAST_COMMIT_MESSAGE" value="check threads's info" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TwoThreadAlive.java">
@@ -364,6 +413,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anhnt/info/WorkingThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anhnt/info/ThreadInfoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
