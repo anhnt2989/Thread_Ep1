@@ -1,7 +1,7 @@
 package com.anhnt.flow;
 
 public class RunnableDemoTest {
-    public static void main(String[] args) {
+    public static void main(String[] args[]) {
         System.out.println("Main thread running... ");
 
         RunnableDemo R1 = new RunnableDemo("Thread-1-HR-Database");
